@@ -1,6 +1,6 @@
 object Form1: TForm1
   Left = 0
-  Top = 0
+  Top = 40
   BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsSingle
   Caption = 'ShellExecute & FileUpload/FileDownload Demo'
@@ -13,7 +13,7 @@ object Form1: TForm1
   Font.Name = 'Tahoma'
   Font.Style = []
   OldCreateOrder = False
-  Position = poScreenCenter
+  Position = poDesigned
   OnCreate = FormCreate
   PixelsPerInch = 96
   TextHeight = 13
@@ -188,10 +188,6 @@ object Form1: TForm1
     object TabSheet2: TTabSheet
       Caption = 'Dialogs'
       ImageIndex = 1
-      ExplicitLeft = 0
-      ExplicitTop = 0
-      ExplicitWidth = 0
-      ExplicitHeight = 0
       object grpDialogs: TGroupBox
         Left = 0
         Top = 0
@@ -1749,10 +1745,6 @@ object Form1: TForm1
     object TabSheet3: TTabSheet
       Caption = 'Transfer'
       ImageIndex = 2
-      ExplicitLeft = 0
-      ExplicitTop = 0
-      ExplicitWidth = 0
-      ExplicitHeight = 0
       object grpTransferUpload: TGroupBox
         Left = 3
         Top = 3
