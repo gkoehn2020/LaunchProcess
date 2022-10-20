@@ -16,4 +16,4 @@ Do not click this on the second process launch.
 Just X out of the dialog and you should see the second process render in the page.  
   
 NOTE: The ini file instructions are only for Development mode.  
-The application function properly without the ini file under standard live server mode.  
+The application functions properly without the ini file under standard live server mode.  
